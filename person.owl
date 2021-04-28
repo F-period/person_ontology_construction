@@ -1,0 +1,1298 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.people.com/ontologies/person.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.people.com/ontologies/person.owl">
+    <Prefix name="" IRI="http://www.people.com/ontologies/person.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>描述人物百科图谱的schema</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#专业人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#主持人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#体育人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#作家"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#偶像"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#参赛运动员"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#娱乐人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#学校"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#导演"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#工程师"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#帝王"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#政治人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#教练"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#文学人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#文艺作品"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#校长"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#歌手"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#演员"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#理论学家"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#科学人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#组织"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#获奖记录"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#诗人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#运动记录"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#丈夫"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#上司"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#下属"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#主持"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#任职于"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#兄弟姐妹"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#创作"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#创造"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#参演"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#同事"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#同党"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#妻子"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#子女"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#学生"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#导演"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#政敌"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#朋友"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#毕业于"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#演唱"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#父母"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#老师"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#获得"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#训练"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#队友"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#中文名"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#代表工程"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#代表理论"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#任职时间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#体重"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#出生地"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#出生日期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#创办时间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#别名"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#办学性质"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#功绩"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#号"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#名次"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#名称"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#国籍"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#外文名"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#字"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#学校类型"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#属相"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#年号"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#年龄"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#庙号"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#性别"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#成绩"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#时间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#星座"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#死亡日期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#民族"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#研究领域"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#笔名"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#简介"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#简称"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#籍贯"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#类型"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#粉丝名"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#经纪公司"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#职位"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#论文"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#谥号"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#身高"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#运动队"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#运动项目"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#专业人物"/>
+        <Class IRI="#人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#主持人"/>
+        <Class IRI="#娱乐人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#体育人物"/>
+        <Class IRI="#专业人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#作家"/>
+        <Class IRI="#文学人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#偶像"/>
+        <Class IRI="#娱乐人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#参赛运动员"/>
+        <Class IRI="#体育人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#娱乐人物"/>
+        <Class IRI="#人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#学校"/>
+        <Class IRI="#组织"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#导演"/>
+        <Class IRI="#娱乐人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#工程师"/>
+        <Class IRI="#科学人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#帝王"/>
+        <Class IRI="#政治人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#政治人物"/>
+        <Class IRI="#人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#教练"/>
+        <Class IRI="#体育人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#文学人物"/>
+        <Class IRI="#专业人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#校长"/>
+        <Class IRI="#科学人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#歌手"/>
+        <Class IRI="#娱乐人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#演员"/>
+        <Class IRI="#娱乐人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#理论学家"/>
+        <Class IRI="#科学人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#科学人物"/>
+        <Class IRI="#专业人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#诗人"/>
+        <Class IRI="#文学人物"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#专业人物"/>
+        <Class IRI="#娱乐人物"/>
+        <Class IRI="#政治人物"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#人物"/>
+        <Class IRI="#文艺作品"/>
+        <Class IRI="#组织"/>
+        <Class IRI="#获奖记录"/>
+        <Class IRI="#运动记录"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#体育人物"/>
+        <Class IRI="#文学人物"/>
+        <Class IRI="#科学人物"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#丈夫"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#上司"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#下属"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#主持"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#任职于"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#兄弟姐妹"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#创作"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#创造"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#参演"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#同事"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#同党"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#妻子"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#子女"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#学生"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#导演"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#政敌"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#朋友"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#毕业于"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#演唱"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#父母"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#老师"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#获得"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#训练"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#队友"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#丈夫"/>
+        <ObjectProperty IRI="#妻子"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#上司"/>
+        <ObjectProperty IRI="#下属"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#子女"/>
+        <ObjectProperty IRI="#父母"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#学生"/>
+        <ObjectProperty IRI="#老师"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#兄弟姐妹"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#同事"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#同党"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#政敌"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#朋友"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#队友"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#丈夫"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#妻子"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#子女"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#父母"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#丈夫"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#上司"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#下属"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#主持"/>
+        <Class IRI="#主持人"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#任职于"/>
+        <Class IRI="#校长"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#创作"/>
+        <Class IRI="#文学人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#创造"/>
+        <Class IRI="#参赛运动员"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#参演"/>
+        <Class IRI="#演员"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#同事"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#同党"/>
+        <Class IRI="#政治人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#妻子"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#子女"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#学生"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#导演"/>
+        <Class IRI="#导演"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#政敌"/>
+        <Class IRI="#政治人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#朋友"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#毕业于"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#演唱"/>
+        <Class IRI="#歌手"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#父母"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#老师"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#获得"/>
+        <Class IRI="#专业人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#获得"/>
+        <Class IRI="#娱乐人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#训练"/>
+        <Class IRI="#教练"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#队友"/>
+        <Class IRI="#娱乐人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#丈夫"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#上司"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#下属"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#主持"/>
+        <Class IRI="#文艺作品"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#任职于"/>
+        <Class IRI="#学校"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#创作"/>
+        <Class IRI="#文艺作品"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#创造"/>
+        <Class IRI="#运动记录"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#参演"/>
+        <Class IRI="#文艺作品"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#同事"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#同党"/>
+        <Class IRI="#政治人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#妻子"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#子女"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#学生"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#导演"/>
+        <Class IRI="#文艺作品"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#政敌"/>
+        <Class IRI="#政治人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#朋友"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#毕业于"/>
+        <Class IRI="#学校"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#演唱"/>
+        <Class IRI="#文艺作品"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#父母"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#老师"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#获得"/>
+        <Class IRI="#获奖记录"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#训练"/>
+        <Class IRI="#参赛运动员"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#队友"/>
+        <Class IRI="#娱乐人物"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#中文名"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#代表工程"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#代表理论"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#任职时间"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#体重"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#出生地"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#出生日期"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#创办时间"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#别名"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#办学性质"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#功绩"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#号"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#名次"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#名称"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#国籍"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#外文名"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#字"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#学校类型"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#属相"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#年号"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#年龄"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#庙号"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#性别"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#成绩"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#时间"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#星座"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#死亡日期"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#民族"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#研究领域"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#笔名"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#简介"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#简称"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#籍贯"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#类型"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#粉丝名"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#经纪公司"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#职位"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#论文"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#谥号"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#身高"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#运动队"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#运动项目"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ID"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#组织"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#获奖记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#运动记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#中文名"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#中文名"/>
+        <Class IRI="#组织"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#代表工程"/>
+        <Class IRI="#工程师"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#代表理论"/>
+        <Class IRI="#理论学家"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#任职时间"/>
+        <Class IRI="#校长"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#体重"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#出生地"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#出生日期"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#创办时间"/>
+        <Class IRI="#组织"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#别名"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#办学性质"/>
+        <Class IRI="#学校"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#功绩"/>
+        <Class IRI="#帝王"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#号"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名次"/>
+        <Class IRI="#获奖记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名称"/>
+        <Class IRI="#文艺作品"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#名称"/>
+        <Class IRI="#获奖记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#国籍"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#外文名"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#外文名"/>
+        <Class IRI="#组织"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#字"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#学校类型"/>
+        <Class IRI="#学校"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#属相"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#年号"/>
+        <Class IRI="#帝王"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#年龄"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#庙号"/>
+        <Class IRI="#帝王"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#性别"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#成绩"/>
+        <Class IRI="#运动记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#时间"/>
+        <Class IRI="#文艺作品"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#时间"/>
+        <Class IRI="#获奖记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#时间"/>
+        <Class IRI="#运动记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#星座"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#死亡日期"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#民族"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#研究领域"/>
+        <Class IRI="#科学人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#笔名"/>
+        <Class IRI="#作家"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#简介"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#简介"/>
+        <Class IRI="#文艺作品"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#简介"/>
+        <Class IRI="#组织"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#简介"/>
+        <Class IRI="#获奖记录"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#简称"/>
+        <Class IRI="#组织"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#籍贯"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#类型"/>
+        <Class IRI="#文艺作品"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#粉丝名"/>
+        <Class IRI="#偶像"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#经纪公司"/>
+        <Class IRI="#娱乐人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#职位"/>
+        <Class IRI="#作家"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#职位"/>
+        <Class IRI="#政治人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#论文"/>
+        <Class IRI="#理论学家"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#谥号"/>
+        <Class IRI="#帝王"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#身高"/>
+        <Class IRI="#人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#运动队"/>
+        <Class IRI="#参赛运动员"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#运动项目"/>
+        <Class IRI="#体育人物"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#运动项目"/>
+        <Class IRI="#运动记录"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#中文名"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#代表工程"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#代表理论"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#任职时间"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#体重"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#出生地"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#出生日期"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#创办时间"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#别名"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#办学性质"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#功绩"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#号"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#名次"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#名称"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#国籍"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#外文名"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#字"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#学校类型"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#属相"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#年号"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#年龄"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#庙号"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#性别"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#成绩"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#时间"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#星座"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#死亡日期"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#民族"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#研究领域"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#笔名"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#简介"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#简称"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#籍贯"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#类型"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#粉丝名"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#经纪公司"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#职位"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#论文"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#谥号"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#身高"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#运动队"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#运动项目"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
